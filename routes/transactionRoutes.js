@@ -6,7 +6,7 @@ const {
   getTransactions,
   deleteTransaction,
 } = require('../controllers/transactionController');
-const { protect } = require('../middleware/auth');
+const { protect } = require('../middleware/authMiddleware');
 
 const router = express.Router();
 
